@@ -1,0 +1,106 @@
+/* Shared NEUS layout: keep Jekyll pages aligned with the standalone HTML pages. */
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.site-logo {
+  display: block;
+  width: auto;
+  height: 52px;
+  max-width: 38vw;
+  object-fit: contain;
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.greedy-nav .visible-links li {
+  display: block;
+}
+
+.greedy-nav .visible-links .masthead__menu-item--lg {
+  margin-right: auto;
+  padding-right: 2rem;
+}
+
+.greedy-nav .visible-links a {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#main.neus-content-grid {
+  max-width: 1280px;
+}
+
+@media (min-width: 925px) {
+  #main.neus-content-grid {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 3.5rem;
+    align-items: start;
+    margin-top: 0;
+    padding: 3rem 1rem 5rem;
+  }
+
+  #main.neus-content-grid .sidebar,
+  #main.neus-content-grid .archive {
+    float: none;
+    width: auto;
+    min-width: 0;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #main.neus-content-grid .sidebar {
+    align-self: start;
+  }
+
+  #main.neus-content-grid .author__avatar {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  #main.neus-content-grid .author__avatar img {
+    display: block;
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    margin: 0 auto 1.25rem;
+  }
+
+  #main.neus-content-grid .author__content {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .masthead__inner-wrap {
+    padding: 0.75rem 1rem;
+  }
+
+  .greedy-nav .visible-links {
+    gap: 0.85rem;
+    overflow-x: auto;
+    font-size: 0.88rem;
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    padding-right: 0.5rem;
+  }
+
+  .site-logo {
+    height: 44px;
+  }
+}
