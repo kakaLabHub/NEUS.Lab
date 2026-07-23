@@ -32,7 +32,7 @@ author: neus_lab
   <img src="{{ base_path }}/images/members/Wenzhao%20Liang.jpg" alt="Wenzhao Liang">
   <div class="member-details">
     <strong>Dr. Wenzhao Liang</strong><br>
-    Associate Professor, Principal Investigator<br><br>
+    Associate Professor, Principal Investigator, PI CV<br><br>
     I am an Associate Professor and PhD supervisor at the School of Geography and Planning, Sun Yat-sen University. I hold a PhD in Hydrogeology from The University of Hong Kong. My research focuses on coastal hydrogeology and biogeochemistry, particularly the cycling of carbon, nitrogen, and phosphorus and the associated environmental and ecological effects during groundwater-surface water interactions involving rivers and the ocean. I have led four national and regional research grants and participated in ten projects, including an NSFC Key Program, an NSFC General Program, and a Young Scientists Project of the National Key Research and Development Program of China. I have published 32 SCI-indexed and Chinese core-journal articles, including 20 papers in leading journals and 10 as first or corresponding author. My work has appeared in Nature Index journals including <em>Water Research</em>, <em>Environmental Science &amp; Technology</em>, and <em>Geology</em>. I have also filed three patents related to groundwater monitoring devices and pollutant-source identification methods.
     <span class="member-section-title">Education</span>
     <ul class="member-list">
@@ -46,7 +46,7 @@ author: neus_lab
       <li>2025: Postdoctoral Researcher, Trent University (Supervisor: Prof. Andrew J. Tanentzap)</li>
       <li>2022-2025: Postdoctoral Researcher, The Hong Kong University of Science and Technology (Supervisor: Prof. Ding He)</li>
     </ul>
-    <p>Email: <a href="mailto:liangwzh28@mail.sysu.edu.cn">liangwzh28@mail.sysu.edu.cn</a></p>
+    <p class="member-email">Email: <a href="mailto:liangwzh28@mail.sysu.edu.cn">liangwzh28@mail.sysu.edu.cn</a></p>
   </div>
 </div>
 
@@ -56,6 +56,6 @@ author: neus_lab
     <strong>Shuo Li</strong><br>
     PhD Student (2026-present)<br><br>
     Shuo received his master's degree from Anhui University of Science and Technology. His previous research focused on bacterial community composition and assembly mechanisms in aquatic ecosystems affected by coal-mining subsidence.
-    <p>Email: <a href="mailto:shuoli6766@163.com">shuoli6766@163.com</a></p>
+    <p class="member-email">Email: <a href="mailto:shuoli6766@163.com">shuoli6766@163.com</a></p>
   </div>
 </div>

@@ -15,16 +15,19 @@ author: neus_lab
     .sidebar.sticky { top: 7.5rem; max-height: calc(100vh - 9rem); overflow-y: auto; }
 }
 .sidebar .author__name { text-align: center; }
-.contact-image { display: block; width: 90%; height: auto; margin: 0 auto 1.5rem; }
+.contact-image-wrap { position: relative; width: 90%; margin: 0 auto 1.5rem; }
+.contact-image { display: block; width: 100%; height: auto; }
+.contact-image-caption { position: absolute; top: 1.25rem; left: 1.5rem; margin: 0; color: #fff; font-size: clamp(1rem, 2.1vw, 1.6rem); font-weight: 700; line-height: 1.3; text-shadow: 0 2px 8px rgba(0,0,0,.75); }
 .contact-address { margin: 0 auto; text-align: center; font-style: normal; font-weight: 700; line-height: 1.75; }
 @media (max-width: 760px) {
-    .contact-image { width: 100%; }
+    .contact-image-wrap { width: 100%; }
+    .contact-image-caption { top: .85rem; left: 1rem; }
 }
 </style>
 
-<br>
-<div align="center">
+<div class="contact-image-wrap">
   <img class="contact-image" src="{{ base_path }}/images/university1.jpg" alt="Sun Yat-sen University campus">
+  <p class="contact-image-caption">Welcome to Guangzhou, China, and Sun Yat-sen University</p>
 </div>
 
 <address class="contact-address">

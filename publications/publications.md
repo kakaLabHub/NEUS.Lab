@@ -40,6 +40,7 @@ author: neus_lab
 ### 2026
 
 (32) Shengchao Yu, Jiu Jimmy Jiao, Hailong Li, Yi Liu, Xuejing Wang, Wei Wang, Manhua Luo, Jinchao Zuo, **Wenzhao Liang**, Meiqing Lu. Controls on alkalinity biogeochemistry in a coastal aquifer-aquitard system. *Marine Pollution Bulletin, 2026*
+[(Link)](https://doi.org/10.1016/j.marpolbul.2026.119464)
 
 ### 2025
 
