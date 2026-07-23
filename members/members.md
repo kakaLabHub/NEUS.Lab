@@ -29,7 +29,7 @@ author: neus_lab
 ### Current members
 
 <div class="member-block">
-  <img src="/images/members/Wenzhao%20Liang.jpg" alt="Wenzhao Liang">
+  <img src="{{ base_path }}/images/members/Wenzhao%20Liang.jpg" alt="Wenzhao Liang">
   <div class="member-details">
     <strong>Dr. Wenzhao Liang</strong><br>
     Associate Professor, Principal Investigator<br><br>
@@ -51,7 +51,7 @@ author: neus_lab
 </div>
 
 <div class="member-block">
-  <img src="/images/members/Shuo%20Li.jpg" alt="Shuo Li">
+  <img src="{{ base_path }}/images/members/Shuo%20Li.jpg" alt="Shuo Li">
   <div class="member-details">
     <strong>Shuo Li</strong><br>
     PhD Student (2026-present)<br><br>

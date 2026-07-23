@@ -24,7 +24,7 @@ author: neus_lab
 
 <br>
 <div align="center">
-  <img class="contact-image" src="/images/university1.jpg" alt="Sun Yat-sen University campus">
+  <img class="contact-image" src="{{ base_path }}/images/university1.jpg" alt="Sun Yat-sen University campus">
 </div>
 
 <address class="contact-address">

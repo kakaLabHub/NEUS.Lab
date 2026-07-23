@@ -12,9 +12,9 @@ title                    : "NEUS Lab"
 title_separator          : "-"
 name                     : &name "NEUS Lab"
 description              : &description "A Niche for Exploring Urban Sea-Land Interactions"
-url                      : ""
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : ""
+url                      : "https://kakalabhub.github.io"
+baseurl                  : "/NEUS.homepage" # GitHub Pages project-site subpath
+repository               : "kakaLabHub/NEUS.homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
