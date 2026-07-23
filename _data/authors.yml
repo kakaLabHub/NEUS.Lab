@@ -1,0 +1,9 @@
+neus_lab:
+  name                  : "NEUS Lab"
+  avatar                : "school.jpg"
+  bio                   : "School of Geography and Planning, Sun Yat-sen University"
+  location              : "Guang Zhou"
+  email                 : true
+  googlescholar         : true
+  researchgate          : true
+  disable_profile_links : true

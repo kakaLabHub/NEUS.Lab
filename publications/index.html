@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | NEUS</title>
+  <meta name="description" content="Publications of the NEUS Lab">
+  <link href="../images/university%20logo.png" rel="icon" type="image/png">
+  <link href="../images/university%20logo.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link href="../assets/hku-home/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: #494e52; background: #fff; font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; font-size: 16px; }
+    .masthead { position: sticky; top: 0; z-index: 1000; width: 100%; background: #fff; border-bottom: 1px solid #f2f3f3; box-shadow: 0 1px 4px rgba(0,0,0,.04); }
+    .masthead__inner-wrap { max-width: 1280px; margin: 0 auto; padding: 1rem; }
+    .greedy-nav, .visible-links { display: flex; align-items: center; }
+    .greedy-nav { justify-content: space-between; min-width: 250px; background: #fff; }
+    .visible-links { width: 100%; gap: 2rem; margin: 0; padding: 0; list-style: none; }
+    .masthead__menu-item { white-space: nowrap; }
+    .masthead__menu-item--lg { margin-right: auto; padding-right: 2rem; }
+    .brand-logo { display: flex; align-items: center; }
+    .site-logo { display: block; width: auto; height: 52px; max-width: 38vw; object-fit: contain; }
+    .greedy-nav a { position: relative; display: block; padding: .5rem 0; color: #7a8288; text-decoration: none; }
+    .greedy-nav a::before { content: ""; position: absolute; right: 0; bottom: 0; left: 0; height: 4px; background: #bcc0c4; transform: scaleX(0); transition: transform .2s ease; }
+    .greedy-nav a:hover { color: #4d5256; }
+    .greedy-nav a:hover::before { transform: scaleX(1); }
+    .publications-layout { display: grid; grid-template-columns: 250px minmax(0,1fr); gap: 3.5rem; max-width: 1280px; margin: 0 auto; padding: 3rem 1rem 5rem; }
+    .author-profile { position: sticky; top: 120px; align-self: start; min-width: 0; max-height: calc(100vh - 140px); overflow-y: auto; }
+    .author-profile__image { display: block; width: 100%; max-width: 230px; height: auto; margin: 0 auto 1.25rem; border-radius: 50%; }
+    .author-profile h2 { margin: 0 0 .5rem; color: #494e52; font-size: 1.2rem; text-align: center; }
+    .author-profile__bio { margin: 0 0 1rem; line-height: 1.45; }
+    .author-profile ul { margin: 0; padding: 0; list-style: none; }
+    .author-profile li { margin: .65rem 0; color: #7a8288; }
+    .author-profile i { display: inline-block; width: 1.25rem; margin-right: .35rem; color: #494e52; }
+    .publications-content { min-width: 0; max-width: 900px; }
+    .publications-content h1 { margin: 0 0 2rem; padding-bottom: .6rem; border-bottom: 1px solid #f2f3f3; font-size: 2rem; }
+    .publications-content h2 { margin: 2.2rem 0 1.1rem; font-size: 1.45rem; }
+    .publications-intro { margin: 0 0 2rem; font-size: 1.15rem; font-weight: 700; }
+    .publication-entry { margin-bottom: 1.5rem; line-height: 1.65; }
+    .publication-entry p { margin: 0; text-align: justify; }
+    .publication-number { margin-right: .2rem; }
+    .publication-link { margin-top: .15rem !important; }
+    .publication-link a { color: #52adc8; text-decoration: none; }
+    .publication-link a:hover { text-decoration: underline; }
+    @media (max-width: 760px) {
+      .masthead__inner-wrap { padding: .75rem 1rem; }
+      .visible-links { gap: .85rem; overflow-x: auto; font-size: .88rem; }
+      .masthead__menu-item--lg { padding-right: .5rem; }
+      .publications-layout { grid-template-columns: 1fr; gap: 2rem; padding-top: 2rem; }
+      .author-profile { position: static; max-height: none; overflow: visible; text-align: center; }
+      .author-profile__image { max-width: 190px; }
+      .author-profile ul { display: inline-block; text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead" aria-label="Primary navigation">
+    <div class="masthead__inner-wrap">
+      <nav class="greedy-nav">
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><span class="brand-logo" aria-label="NEUS"><img class="site-logo" src="../images/lab-logo1.png" alt="NEUS Lab logo"></span></li>
+          <li class="masthead__menu-item"><a href="../index.html">Home</a></li>
+          <li class="masthead__menu-item"><a href="../research/">Research</a></li>
+          <li class="masthead__menu-item"><a href="index.html" aria-current="page">Publications</a></li>
+          <li class="masthead__menu-item"><a href="../members/">Members</a></li>
+          <li class="masthead__menu-item"><a href="../contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="publications-layout">
+    <aside class="author-profile">
+      <img class="author-profile__image" src="../images/school.jpg" alt="NEUS Lab">
+      <h2>NEUS Lab</h2>
+      <p class="author-profile__bio">School of Geography and Planning, Sun Yat-sen University</p>
+      <ul>
+        <li><i class="bi bi-geo-alt-fill" aria-hidden="true"></i>Guang Zhou</li>
+        <li><i class="bi bi-envelope-fill" aria-hidden="true"></i>Email</li>
+        <li><i class="bi bi-mortarboard-fill" aria-hidden="true"></i>Google Scholar</li>
+        <li><i class="bi bi-people-fill" aria-hidden="true"></i>ResearchGate</li>
+      </ul>
+    </aside>
+    <article class="publications-content">
+      <h1>Publications</h1>
+      <p class="publications-intro">Published research articles (* corresponding author):</p>
+      <h2>2026</h2>
+      <div class="publication-entry">
+        <p><span class="publication-number">(32)</span> Shengchao Yu, Jiu Jimmy Jiao, Hailong Li, Yi Liu, Xuejing Wang, Wei Wang, Manhua Luo, Jinchao Zuo, <strong>Wenzhao Liang</strong>, Meiqing Lu. Controls on alkalinity biogeochemistry in a coastal aquifer-aquitard system. <em>Marine Pollution Bulletin, 2026</em></p>
+        <p class="publication-link"><a href="https://doi.org/10.1016/j.marpolbul.2026.119464" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <h2>2025</h2>
+      <div class="publication-entry">
+        <p><span class="publication-number">(31)</span> Zekun Zhang, Peng Yao, Bin Zhao, Yuanbi Yi, Zhao Liang Chen, Chen Zhao, Ruanhong Cai, <strong>Wenzhao Liang</strong> , Chenglong Wang, Ding He*. Dissolved organic matter in surface sediments along a river-to-ocean continuum: Molecular characteristics and sediment–water exchange dynamics <em>Water Research, 2025.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0043135425021402" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(30)</span> Shengchao Yu, Jiu Jimmy Jiao, Xin Luo, Xuejing Wang, Jinchao Zuo, <strong>Wenzhao Liang</strong>, Meiqing Lu, Hailong Li*. Characterisation of Groundwater Flow in the Deltaic Aquifer‐Aquitard System <em>Hydrological Processes, 2025.</em></p>
+        <p class="publication-link"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/hyp.70255" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(29)</span> <strong>Wenzhao Liang</strong>, Xin Luo, Meiqing Lu, Yurong Song, Yi Liu, Zhao Liang Chen, Ding He, Jiu Jimmy Jiao*. Distinguishing the impact of river discharge and submarine groundwater discharge on phytoplankton community in coastal water <em>Water Research, 2025.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0043135425012618" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(28)</span> <strong>Wenzhao Liang</strong>, Penghui Li*, Yifei Pan, Zhe-Xuan Zhang, Yuanbi Yi, Zhao Liang Chen, Chen Zhao, Ruanhong Cai, Zekun Zhang, Christian Lønborg, Jianping Gan, Ding He*. The role of dissolved organic matter in fuelling coastal hypoxia: Identifying key molecules and drivers <em>Water Research, 2025.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0043135425011170" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(27)</span> Tongcun Liu†, Guochun Yu†, Hoi Yan Kwok, Runze Xue, Ding He*, <strong>Wenzhao Liang</strong>*. Enhancing tree-based machine learning for chlorophyll-a prediction in coastal seawater through spatiotemporal feature integration <em>Marine Environmental Research, 2025.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0141113625002272" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(26)</span> <strong>Wenzhao Liang</strong>, Jiu Jimmy Jiao*, Yi Liu, Shengchao Yu, Kin Bong Eddie Ho, Xin Luo, John A Cherry. Breaking the Technical Barrier for High Spatial Resolution Monitoring: A Novel Approach to Multi-Level Groundwater Monitoring System Development <em>ACS ES&amp;T Water, 2025.</em></p>
+        <p class="publication-link"><a href="https://pubs.acs.org/doi/full/10.1021/acsestwater.4c01227" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(25)</span> Zhao Liang Chen, Yuanbi Yi, Ruanhong Cai, Zhe-Xuan Zhang, <strong>Wenzhao Liang</strong>, Wenjing Fu, Penghui Li, Kai Wang, Lixin Zhang, Kejun Dong, Si-Liang Li, Sheng Xu, Ding He*. Revealing the mobilization and age of estuarine dissolved organic matter during floods using radiocarbon and molecular fingerprints <em>Water Research, 2025.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0043135424017986" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(24)</span> Zhao Liang Chen, Zhe-Xuan Zhang, Ruanhong Cai, Yuanbi Yi, <strong>Wenzhao Liang</strong>, Peter I Macreadie, Christian J Sanders, Shing Yip Lee, Faming Wang, Ding He*. Molecular fingerprints of sedimentary dissolved organic matter in mangroves: Importance to blue carbon sequestration <em>Chemical geology, 2025.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S00092541240057585" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(23)</span> Zhimeng Xu, Xiaodong Zhang, Mingjue Li, <strong>Wenzhao Liang</strong>, Yu Ma, Lixia Deng, Jiawei Chen, Kailin Liu, Hongbin Liu*. Decadal scale phytoplankton species miniaturization in subtropical coastal waters <em>The ISME Journal, 2025.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://academic.oup.com/ismej/article/19/1/wraf257/8329235" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(22)</span> Zhimeng Xu, Jiawei Chen, <strong>Wenzhao Liang</strong>, Zhao Liang Chen, Wenxue Wu, Xiaomin Xia, Bingzhang Chen, Ding He, Hongbin Liu*. Contrasting diversity patterns between microeukaryotic and prokaryotic communities in cold-seep sediments <em>ISME communications, 2025.</em></p>
+        <p class="publication-link"><a href="https://academic.oup.com/ismecommun/article/5/1/ycaf002/7945616" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <h2>2024</h2>
+      <div class="publication-entry">
+        <p><span class="publication-number">(21)</span> <strong>Wenzhao Liang</strong>, Xin Luo, Yi Liu, Jiu Jimmy Jiao, Meiqing Lu, Zhenwei Yan, Xingxing Kuang. Disentangling external loadings, hydrodynamics and biogeochemical controls on the fate of nitrate in a coastal embayment <em>Journal of Hazardous Materials, 2024.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0304389424020442" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(20)</span> <strong>Wenzhao Liang</strong>, Xiaogang Chen, Zhao Liang Chen, Peiyuan Zhu, Zhiyong Huang, Jiangshan Li, Yuntao Wang, Ling Li, Ding He. Unraveling the impact of Spartina alterniflora invasion on greenhouse gas production and emissions in coastal saltmarshes: New insights from dissolved organic matter characteristics and surface-porewater interactions <em>Water Research, 2024.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0043135424010200" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(19)</span> Jia-Yong Lao, Guangling Huang, Rongben Wu, <strong>Wenzhao Liang</strong>, Shaopeng Xu, Qiong Luo, Kai Zhang, Le Jing, Linjie Jin, Yuefei Ruan*, Kenneth MY Leung*, Paul KS Lam. Aggravating pollution of emerging aryl organophosphate esters in urban estuarine sediments of South China <em>Environmental Science &amp; Technology, 2024.(Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://pubs.acs.org/doi/abs/10.1021/acs.est.4c01646" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(18)</span> Zhao Liang Chen, Yuanbi Yi, Wenjing Fu, <strong>Wenzhao Liang</strong>, Penghui Li, Kai Wang, Lixin Zhang, Kejun Dong, Si-Liang Li, Sheng Xu, Ding He. Severe flood modulates the sources and age of dissolved organic carbon in the Yangtze River Estuary <em>Environmental Research, 2020.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0013935124009447" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(17)</span> Penghui Li, <strong>Wenzhao Liang</strong>, Yuping Zhou, Yuanbi Yi, Chen He, Quan Shi, Ding He*. Hypoxia diversifies molecular composition of dissolved organic matter and enhances preservation of terrestrial organic carbon in the Yangtze River Estuary <em>Science of The Total Environment, 2018.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0048969723062885" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <h2>2023</h2>
+      <div class="publication-entry">
+        <p><span class="publication-number">(16)</span> <strong>Wenzhao Liang</strong>, Tongcun Liu, Yuntao Wang, Jiu Jimmy Jiao, Jianping Gan, Ding He*. Spatiotemporal-aware machine learning approaches for dissolved oxygen prediction in coastal waters <em>Science of the Total Environment, 2023.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0048969723057650" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(15)</span> <strong>Wenzhao Liang</strong>†, Xiaogang Chen†, Chen Zhao, Ling Li*, Ding He*. Seasonal changes of dissolved organic matter chemistry and its linkage with greenhouse gas emissions in saltmarsh surface water and porewater interactions <em>Water Research, 2023. (Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0043135423010229" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(14)</span> Shengchao Yu, Jiu Jimmy Jiao, Xin Luo, Hailong Li, Xuejing Wang, Xiaolang Zhang, Meng Yao, Jinchao Zuo, <strong>Wenzhao Liang</strong>, Meiqing Lu. Evolutionary history of the groundwater system in the Pearl River Delta (China) during the Holocene <em>Geology, 2023. (Nature Index Journal)</em></p>
+        <p class="publication-link"><a href="https://pubs.geoscienceworld.org/gsa/geology/article/51/5/481/621093/Evolutionary-history-of-the-groundwater-system-in" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <h2>Before 2022</h2>
+      <div class="publication-entry">
+        <p><span class="publication-number">(13)</span> Yi Liu, Jiu Jimmy Jiao, <strong>Wenzhao Liang</strong>, Isaac R Santos, Xingxing Kuang, Clare E Robinson. Inorganic carbon and alkalinity biogeochemistry and fluxes in an intertidal beach aquifer: Implications for ocean acidification <em>Journal of Hydrology, 2020.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0048969720338110" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(12)</span> Xiaolang Zhang, Hailong Li, Jiu Jimmy Jiao, Xin Luo, Jinchao Zuo, Meiqing Lu, Yi Liu, <strong>Wenzhao Liang</strong>, Xingxing Kuang. Control factors on nutrient cycling in the lake water and groundwater of the Badain Jaran Desert, China <em>Journal of Hydrology, 2018.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0022169421004558" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(11)</span> Yupeng Liu, Danling Tang*, Shilin Tang, Evgeny Morozov, <strong>Wenzhao Liang</strong>, Yi Sui. The dynamics of dissolved inorganic nitrogen species mediated by fresh submarine groundwater discharge and their impact on phytoplankton community structure <em>Science of the Total Environment, 2020.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0048969720338110" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(10)</span> <strong>Wenzhao Liang</strong>, Yi Liu, Jiu Jimmy Jiao*, Xin Luo. The dynamics of dissolved inorganic nitrogen species mediated by fresh submarine groundwater discharge and their impact on phytoplankton community structure <em>Water Resources Research, 2018.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0048969719348892" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(8)</span> Yi Liu, Jiu Jimmy Jiao*, Rong Mao, Xin Luo, <strong>Wenzhao Liang</strong>, Clare E Robinson. Spatial Characteristics Reveal the Reactive Transport of Radium Isotopes (224Ra, 223Ra, and 228Ra) in an Intertidal Aquifer <em>Water Resources Research, 2019.</em></p>
+        <p class="publication-link"><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019WR024849" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(7)</span> Yi Liu, Christelle Not, Jiu Jimmy Jiao*, <strong>Wenzhao Liang</strong>, Meiqing Lu. Tidal induced dynamics and geochemical reactions of trace metals (Fe, Mn, and Sr) in the salinity transition zone of an intertidal aquifer <em>Science of the Total Environment, 2018.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0048969719302347" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(6)</span> <strong>Wenzhao Liang</strong>, Danling Tang*, Xin Luo. Phytoplankton size structure in the western South China Sea under the influence of a ‘jet-eddy system’ <em>Journal of Marine Systems, 2018.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0924796317303676" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(5)</span> Yi Liu, <strong>Wenzhao Liang</strong>, Jiu Jimmy Jiao*. Seasonality of nutrient flux and biogeochemistry in an intertidal aquifer <em>Journal of Geophysical Research: Oceans, 2018.</em></p>
+        <p class="publication-link"><a href="https://link.springer.com/article/10.1007/s12237-017-0335-x" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(4)</span> Yi Liu, Jiu Jimmy Jiao*, <strong>Wenzhao Liang</strong>. Tidal fluctuation influenced physicochemical parameter dynamics in coastal groundwater mixing zone <em>Estuaries and Coasts, 2018.</em></p>
+        <p class="publication-link"><a href="https://link.springer.com/article/10.1007/s12237-017-0335-x" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(3)</span> Xin Luo, Jiu Jimmy Jiao*, Yi Liu, Xiaolang Zhang, <strong>Wenzhao Liang</strong>, Danling Tang. Evaluation of water residence time, submarine groundwater discharge, and maximum new production supported by groundwater borne nutrients in a coastal upwelling shelf system <em>Journal of Geophysical Research: Oceans, 2018.</em></p>
+        <p class="publication-link"><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017JC013398" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(2)</span> Yi Liu, Jiu Jimmy Jiao*, <strong>Wenzhao Liang</strong>, Xin Luo. Tidal pumping‐induced nutrients dynamics and biogeochemical implications in an intertidal aquifer <em>Journal of Geophysical Research: Biogeosciences, 2017.</em></p>
+        <p class="publication-link"><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017JG004017" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+      <div class="publication-entry">
+        <p><span class="publication-number">(1)</span> Yi Liu, Jiu Jimmy Jiao*, <strong>Wenzhao Liang</strong>, Xingxing Kuang. Hydrogeochemical characteristics in coastal groundwater mixing zone <em>Applied Geochemistry, 2017.</em></p>
+        <p class="publication-link"><a href="https://www.sciencedirect.com/science/article/pii/S0883292717302755" target="_blank" rel="noopener">[(Link)]</a></p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEUS</title>
+  <meta name="description" content="Medical Artificial Intelligence Laboratory">
+
+  <link href="images/university%20logo.png" rel="icon" type="image/png">
+  <link href="images/university%20logo.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link href="assets/hku-home/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/hku-home/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/hku-home/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/hku-home/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Academic Pages navigation style, fixed at the top while scrolling. */
+    .masthead {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      width: 100%;
+      background: #fff;
+      border-bottom: 1px solid #f2f3f3;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    }
+
+    .masthead__inner-wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .greedy-nav,
+    .visible-links {
+      display: flex;
+      align-items: center;
+    }
+
+    .greedy-nav {
+      justify-content: space-between;
+      min-width: 250px;
+      background: #fff;
+    }
+
+    .visible-links {
+      width: 100%;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .masthead__menu-item {
+      white-space: nowrap;
+    }
+
+    .masthead__menu-item--lg {
+      margin-right: auto;
+      padding-right: 2rem;
+      font-weight: 700;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      padding: 0;
+    }
+
+    .site-logo {
+      display: block;
+      width: auto;
+      height: 52px;
+      max-width: 38vw;
+      object-fit: contain;
+    }
+
+    .greedy-nav a {
+      position: relative;
+      display: block;
+      padding: 0.5rem 0;
+      color: #7a8288;
+      text-decoration: none;
+    }
+
+    .greedy-nav a::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 4px;
+      background: #bcc0c4;
+      transform: scaleX(0);
+      transition: transform 0.2s ease;
+    }
+
+    .greedy-nav a:hover {
+      color: #4d5256;
+    }
+
+    .greedy-nav a:hover::before {
+      transform: scaleX(1);
+    }
+
+    .about-carousel-image {
+      height: 420px;
+      object-fit: cover;
+      background: #fff;
+    }
+
+    .about-carousel-image--logo {
+      object-fit: contain;
+      padding: 2rem;
+    }
+
+    @media (max-width: 700px) {
+      .about-carousel-image {
+        height: 300px;
+      }
+      .masthead__inner-wrap {
+        padding: 0.75rem 1rem;
+      }
+
+      .visible-links {
+        gap: 0.85rem;
+        overflow-x: auto;
+        font-size: 0.88rem;
+      }
+
+      .masthead__menu-item--lg {
+        padding-right: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+  <header id="header" class="masthead" aria-label="Primary navigation">
+    <div class="masthead__inner-wrap">
+      <nav class="greedy-nav">
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><span class="brand-logo" aria-label="NEUS"><img class="site-logo" src="images/lab-logo1.png" alt="NEUS Lab logo"></span></li>
+          <li class="masthead__menu-item"><a href="index.html" aria-current="page">Home</a></li>
+          <li class="masthead__menu-item"><a href="research/">Research</a></li>
+          <li class="masthead__menu-item"><a href="publications/">Publications</a></li>
+          <li class="masthead__menu-item"><a href="members/">Members</a></li>
+          <li class="masthead__menu-item"><a href="contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="hero" class="hero section dark-background">
+      <img src="images/school.jpg" alt="Sun Yat-sen University" data-aos="fade-in">
+      <div class="container">
+        <h2 data-aos="fade-up" data-aos-delay="100">NEUS Lab</h2>
+        <p data-aos="fade-up" data-aos-delay="200">a Niche for EXploring Urban Sea-land interactions Laboratory<br>Sun Yat-sen University</p>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
+            <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/university2.jpg" class="d-block w-100 about-carousel-image" alt="Sun Yat-sen University campus">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/university3.jpg" class="d-block w-100 about-carousel-image" alt="Sun Yat-sen University campus">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/university4.jpg" class="d-block w-100 about-carousel-image" alt="Sun Yat-sen University campus">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/university5.jpg" class="d-block w-100 about-carousel-image" alt="Sun Yat-sen University campus">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-6 content order-last order-lg-first" data-aos="fade-up" data-aos-delay="100">
+            <h3>About Us</h3>
+            <p>We are dedicated to designing advanced computational and machine learning algorithms for biomedical data analysis, primarily focusing on medical images, to improve medical decision-making.</p>
+            <ul>
+              <li>
+                <i class="bi bi-diagram-3"><br></i>
+                <div><p>Developing multi-modal learning algorithms to intergrate multi-scale biomedical data for disease prevention, diagnosis, and prognosis.</p></div>
+              </li>
+              <li>
+                <i class="bi bi-globe"></i>
+                <div><p>Building real-world learning systems to learn reliable, generalizable, and fair representations from imperfect medical data.</p></div>
+              </li>
+              <li>
+                <i class="bi bi-graph-up"></i>
+                <div><p>Developing causality-based learning algorithms to improve its interpretability for healthcare problems.</p></div>
+              </li>
+              <li>
+                <i class="bi bi-lightbulb"></i>
+                <div><p>Also looking forward to your ideas.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/hku-home/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/hku-home/vendor/aos/aos.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      var preloader = document.getElementById("preloader");
+      if (preloader) preloader.remove();
+      AOS.init({ duration: 600, easing: "ease-in-out", once: true, mirror: false });
+    });
+
+    var scrollTopButton = document.getElementById("scroll-top");
+    function updateScrollTop() {
+      scrollTopButton.classList.toggle("active", window.scrollY > 100);
+    }
+    document.addEventListener("scroll", updateScrollTop);
+    scrollTopButton.addEventListener("click", function (event) {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
