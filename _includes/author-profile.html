@@ -25,7 +25,7 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
-        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ author.location }}</li>
+        <li class="author__profile-row author__location-item"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span class="author__profile-label">{{ author.location }}</span></li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-solid fa-building-columns" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -37,11 +37,10 @@
         {% if author.disable_profile_links %}
           <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</li>
         {% else %}
-          <li class="author__email-item">
-            <a class="author__email-link" href="mailto:{{ author.email }}" aria-describedby="author-email-tooltip">
+          <li>
+            <a class="author__profile-row author__email-link" href="mailto:{{ author.email }}" title="邮箱地址为{{ author.email }}">
               <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-              <span>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
-              <span class="author__email-tooltip" id="author-email-tooltip" role="tooltip">邮箱地址为{{ author.email }}</span>
+              <span class="author__profile-label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
             </a>
           </li>
         {% endif %}
@@ -55,14 +54,14 @@
         {% if author.disable_profile_links %}
           <li><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</li>
         {% else %}
-          <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+          <li><a class="author__profile-row" href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span class="author__profile-label">Google Scholar</span></a></li>
         {% endif %}
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw"></i> ORCID</a></li>
+        <li><a class="author__profile-row" href="{{ author.orcid }}" target="_blank" rel="noopener"><img class="author__orcid-icon" src="{{ base_path }}/images/ORCID.png" alt=""><span class="author__profile-label">ORCID</span></a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw"></i> PubMed</a></li>
