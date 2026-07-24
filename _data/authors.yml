@@ -1,7 +1,7 @@
 neus_lab:
   name                  : "NEUS Lab"
   avatar                : "school.jpg"
-  bio                   : "School of Geography and Planning, Sun Yat-sen University"
+  bio                   : "School of Geography and Planning,<br>Sun Yat-sen University"
   location              : "Guangzhou"
   email                 : "liangwzh28@mail.sysu.edu.cn"
   googlescholar         : "https://scholar.google.com/citations?user=9HrAKb0AAAAJ&hl=zh-TW"
