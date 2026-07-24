@@ -38,7 +38,7 @@
           <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</li>
         {% else %}
           <li>
-            <a class="author__profile-row author__email-link" href="mailto:{{ author.email }}" title="邮箱地址为{{ author.email }}">
+            <a class="author__profile-row author__email-link" href="mailto:{{ author.email }}" data-email="{{ author.email }}" aria-label="Email：{{ author.email }}">
               <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
               <span class="author__profile-label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
             </a>
