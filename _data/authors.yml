@@ -3,7 +3,7 @@ neus_lab:
   avatar                : "school.jpg"
   bio                   : "School of Geography and Planning, Sun Yat-sen University"
   location              : "Guang Zhou"
-  email                 : true
-  googlescholar         : true
-  researchgate          : true
-  disable_profile_links : true
+  email                 : "liangwzh28@mail.sysu.edu.cn"
+  googlescholar         : "https://scholar.google.com/citations?user=9HrAKb0AAAAJ&hl=zh-TW"
+  orcid                 : "https://orcid.org/0000-0002-7306-9899"
+  disable_profile_links : false

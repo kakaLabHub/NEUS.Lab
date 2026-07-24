@@ -139,3 +139,68 @@
     height: 44px;
   }
 }
+
+/* Enlarged and aligned shared author profile for the four inner pages. */
+#main.neus-content-grid .author__name {
+  font-size: 1.24rem;
+}
+
+#main.neus-content-grid .author__bio,
+#main.neus-content-grid .author__urls {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#main.neus-content-grid .author__urls li,
+#main.neus-content-grid .author__urls a {
+  align-items: center;
+}
+
+#main.neus-content-grid .author__urls li {
+  line-height: 1.75;
+}
+
+#main.neus-content-grid .author__urls a {
+  display: inline-flex;
+}
+
+#main.neus-content-grid .author__urls i {
+  flex: 0 0 1.45em;
+  width: 1.45em;
+  margin-right: 0.3rem;
+  color: inherit !important;
+  font-size: 1.08em;
+  text-align: center;
+}
+
+.author__email-item,
+.author__email-link {
+  position: relative;
+}
+
+.author__email-tooltip {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.45rem);
+  left: 0;
+  width: max-content;
+  max-width: min(360px, 82vw);
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #d6d9dc;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.14);
+  color: #333;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-3px);
+  transition: opacity 0.16s ease, transform 0.16s ease;
+}
+
+.author__email-link:hover .author__email-tooltip,
+.author__email-link:focus-visible .author__email-tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}

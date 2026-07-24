@@ -37,7 +37,13 @@
         {% if author.disable_profile_links %}
           <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</li>
         {% else %}
-          <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+          <li class="author__email-item">
+            <a class="author__email-link" href="mailto:{{ author.email }}" aria-describedby="author-email-tooltip">
+              <i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+              <span>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+              <span class="author__email-tooltip" id="author-email-tooltip" role="tooltip">邮箱地址为{{ author.email }}</span>
+            </a>
+          </li>
         {% endif %}
       {% endif %}
 

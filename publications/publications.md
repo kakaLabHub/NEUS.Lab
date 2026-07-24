@@ -65,7 +65,7 @@ author: neus_lab
 </div>
 
 <div class="publication-entry">
-  <p>(30). Yu, S., Jiao, J. J., Li, H., Liu, Y., Wang, X., Wang, W., Luo, M., Zuo, J., <strong>Liang, W.</strong>, &amp; Lu, M. (2026). Controls on alkalinity biogeochemistry in a coastal aquifer-aquitard system. <strong><em>Marine Pollution Bulletin</em></strong>, 227, 119464. <a href="https://doi.org/10.1016/j.marpolbul.2026.119464" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(30). Yu, S., Jiao, J. J.<sup>*</sup>, Li, H., Liu, Y., Wang, X., Wang, W., Luo, M., Zuo, J., <strong>Liang, W.</strong>, &amp; Lu, M. (2026). Controls on alkalinity biogeochemistry in a coastal aquifer-aquitard system. <strong><em>Marine Pollution Bulletin</em></strong>, 227, 119464. <a href="https://doi.org/10.1016/j.marpolbul.2026.119464" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/30.jpg" alt="Graphical abstract for publication 30">
 </div>
 
@@ -124,12 +124,12 @@ author: neus_lab
 ### 2024
 
 <div class="publication-entry">
-  <p>(19). <strong>Liang, W.</strong>, Luo, X., Liu, Y., Jiao, J. J., Lu, M., Yan, Z., &amp; Kuang, X. (2024). Disentangling external loadings, hydrodynamics and biogeochemical controls on the fate of nitrate in a coastal embayment. <strong><em>Journal of Hazardous Materials</em></strong>, 478, 135465. <a href="https://doi.org/10.1016/j.jhazmat.2024.135465" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(19). <strong>Liang, W.</strong>, Luo, X.<sup>*</sup>, Liu, Y., Jiao, J. J., Lu, M., Yan, Z., &amp; Kuang, X. (2024). Disentangling external loadings, hydrodynamics and biogeochemical controls on the fate of nitrate in a coastal embayment. <strong><em>Journal of Hazardous Materials</em></strong>, 478, 135465. <a href="https://doi.org/10.1016/j.jhazmat.2024.135465" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/19.jpg" alt="Graphical abstract for publication 19">
 </div>
 
 <div class="publication-entry">
-  <p>(18). <strong>Liang, W.</strong>, Chen, X., Chen, Z. L., Zhu, P., Huang, Z., Li, J., Wang, Y., Li, L., &amp; He, D. (2024). Unraveling the impact of <em>Spartina alterniflora</em> invasion on greenhouse gas production and emissions in coastal saltmarshes: New insights from dissolved organic matter characteristics and surface-porewater interactions. <strong><em>Water Research</em></strong>, 262, 122120. <a href="https://doi.org/10.1016/j.watres.2024.122120" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(18). <strong>Liang, W.</strong>, Chen, X., Chen, Z. L., Zhu, P., Huang, Z., Li, J., Wang, Y., Li, L.<sup>*</sup>, &amp; He, D.<sup>*</sup> (2024). Unraveling the impact of <em>Spartina alterniflora</em> invasion on greenhouse gas production and emissions in coastal saltmarshes: New insights from dissolved organic matter characteristics and surface-porewater interactions. <strong><em>Water Research</em></strong>, 262, 122120. <a href="https://doi.org/10.1016/j.watres.2024.122120" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/18.jpg" alt="Graphical abstract for publication 18">
 </div>
 
@@ -139,7 +139,7 @@ author: neus_lab
 </div>
 
 <div class="publication-entry">
-  <p>(16). Chen, Z. L., Yi, Y., Fu, W., <strong>Liang, W.</strong>, Li, P., Wang, K., Zhang, L., Dong, K., Li, S.-L., Xu, S., &amp; He, D. (2024). Severe flood modulates the sources and age of dissolved organic carbon in the Yangtze River Estuary. <strong><em>Environmental Research</em></strong>, 252, 119040. <a href="https://doi.org/10.1016/j.envres.2024.119040" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(16). Chen, Z. L., Yi, Y.<sup>*</sup>, Fu, W., <strong>Liang, W.</strong>, Li, P., Wang, K., Zhang, L., Dong, K., Li, S.-L., Xu, S., &amp; He, D.<sup>*</sup> (2024). Severe flood modulates the sources and age of dissolved organic carbon in the Yangtze River Estuary. <strong><em>Environmental Research</em></strong>, 252, 119040. <a href="https://doi.org/10.1016/j.envres.2024.119040" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/16.jpg" alt="Graphical abstract for publication 16">
 </div>
 
@@ -161,19 +161,19 @@ author: neus_lab
 </div>
 
 <div class="publication-entry">
-  <p>(12). Yu, S., Jiao, J. J., Luo, X., Li, H., Wang, X., Zhang, X., Yao, M., Zuo, J., <strong>Liang, W.</strong>, &amp; Lu, M. (2023). Evolutionary history of the groundwater system in the Pearl River Delta (China) during the Holocene. <strong><em>Geology</em></strong>, 51(5), 481–485. <a href="https://doi.org/10.1130/G50888.1" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(12). Yu, S., Jiao, J. J.<sup>*</sup>, Luo, X., Li, H., Wang, X., Zhang, X., Yao, M., Zuo, J., <strong>Liang, W.</strong>, &amp; Lu, M. (2023). Evolutionary history of the groundwater system in the Pearl River Delta (China) during the Holocene. <strong><em>Geology</em></strong>, 51(5), 481–485. <a href="https://doi.org/10.1130/G50888.1" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/12.jpg" alt="Graphical abstract for publication 12">
 </div>
 
 ### Before 2022
 
 <div class="publication-entry">
-  <p>(11). Liu, Y., Jiao, J. J., <strong>Liang, W.</strong>, Santos, I. R., Kuang, X., &amp; Robinson, C. E. (2021). Inorganic carbon and alkalinity biogeochemistry and fluxes in an intertidal beach aquifer: Implications for ocean acidification. <strong><em>Journal of Hydrology</em></strong>, 595, 126036. <a href="https://doi.org/10.1016/j.jhydrol.2021.126036" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(11). Liu, Y., Jiao, J. J.<sup>*</sup>, <strong>Liang, W.</strong>, Santos, I. R., Kuang, X., &amp; Robinson, C. E. (2021). Inorganic carbon and alkalinity biogeochemistry and fluxes in an intertidal beach aquifer: Implications for ocean acidification. <strong><em>Journal of Hydrology</em></strong>, 595, 126036. <a href="https://doi.org/10.1016/j.jhydrol.2021.126036" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/11.jpg" alt="Graphical abstract for publication 11">
 </div>
 
 <div class="publication-entry">
-  <p>(10). Zhang, X., Li, H., Jiao, J. J., Luo, X., Zuo, J., Lu, M., Liu, Y., <strong>Liang, W.</strong>, &amp; Kuang, X. (2021). Control factors on nutrient cycling in the lake water and groundwater of the Badain Jaran Desert, China. <strong><em>Journal of Hydrology</em></strong>, 598, 126408. <a href="https://doi.org/10.1016/j.jhydrol.2021.126408" target="_blank" rel="noopener">(Link)</a>.</p>
+  <p>(10). Zhang, X., Li, H., Jiao, J. J.<sup>*</sup>, Luo, X., Zuo, J., Lu, M., Liu, Y., <strong>Liang, W.</strong>, &amp; Kuang, X. (2021). Control factors on nutrient cycling in the lake water and groundwater of the Badain Jaran Desert, China. <strong><em>Journal of Hydrology</em></strong>, 598, 126408. <a href="https://doi.org/10.1016/j.jhydrol.2021.126408" target="_blank" rel="noopener">(Link)</a>.</p>
   <img class="publication-image" src="{{ base_path }}/images/publications/10.jpg" alt="Graphical abstract for publication 10">
 </div>
 

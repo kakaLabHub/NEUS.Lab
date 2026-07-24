@@ -32,7 +32,7 @@ author: neus_lab
   <img src="{{ base_path }}/images/members/Wenzhao%20Liang.jpg" alt="Wenzhao Liang">
   <div class="member-details">
     <strong>Dr. Wenzhao Liang</strong><br>
-    Associate Professor, Principal Investigator, PI CV<br><br>
+    Associate Professor, Principal Investigator, PI <a href="https://kakalabhub.github.io/teacher.homepage/" target="_blank" rel="noopener">CV</a><br><br>
     I am an Associate Professor and PhD supervisor at the School of Geography and Planning, Sun Yat-sen University. I hold a PhD in Hydrogeology from The University of Hong Kong. My research focuses on coastal hydrogeology and biogeochemistry, particularly the cycling of carbon, nitrogen, and phosphorus and the associated environmental and ecological effects during groundwater-surface water interactions involving rivers and the ocean. I have led four national and regional research grants and participated in ten projects, including an NSFC Key Program, an NSFC General Program, and a Young Scientists Project of the National Key Research and Development Program of China. I have published 32 SCI-indexed and Chinese core-journal articles, including 20 papers in leading journals and 10 as first or corresponding author. My work has appeared in Nature Index journals including <em>Water Research</em>, <em>Environmental Science &amp; Technology</em>, and <em>Geology</em>. I have also filed three patents related to groundwater monitoring devices and pollutant-source identification methods.
     <span class="member-section-title">Education</span>
     <ul class="member-list">
